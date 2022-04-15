@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 
 config = load_dotenv(".env")
 
-num = input("Insira o numero de telefone, não se esqueça do código do pais: ")
+num = input("Insira o numero de telefone, não se esqueça do código do país: ")
 
 KEY_ENV = os.environ.get('KEY_ENV')
 
